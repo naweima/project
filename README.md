@@ -1,9 +1,11 @@
-## project
-Machine learning
+## Machine learning
+## Default in telecom bills using python
 ### What the task and results are
 We want to study the question whether a client will default or not next month, and figure out the most important variables among those 17 features.
+There are 3 main parts in this project, including data preparation, data visualization in Python with Pandas, Matplotlib,
+and Others, build 4 models and ensemble.
 
-Frist, We will use SVM, logistic regression, neural network, random forest and Extratree to build the model and tune hyper-parameters. (We would like to subsample the dataset since it takes too long to train)
+For the modeling part, We will use SVM, logistic regression, neural network, random forest and Extratree to build the model and tune hyper-parameters. (We would like to subsample the dataset since it takes too long to train)
 
 Then, we get our ideal model for each algorithm. And we evaluate it by using ROC curve. Next, we would like to compare each of the best performing algorithms. And get the conclusions that if the performance of each algorithm might be statistically different.
 
